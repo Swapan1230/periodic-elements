@@ -1,0 +1,104 @@
+Element,AtomicNumber,Symbol,MetalGroup
+Hydrogen,1,H,Diatomic nonmetal
+Helium,2,He,Noble gas
+Lithium,3,Li,Alkali metal
+Beryllium,4,Be,Alkaline earth metal
+Boron,5,B,Metalloid
+Carbon,6,C,Polyatomic nonmetal
+Nitrogen,7,N,Diatomic nonmetal
+Oxygen,8,O,Diatomic nonmetal
+Fluorine,9,F,Diatomic nonmetal
+Neon,10,Ne,Noble gas
+Sodium,11,Na,Alkali metal
+Magnesium,12,Mg,Alkaline earth metal
+Aluminum,13,Al,Other metal
+Silicon,14,Si,Metalloid
+Phosphorus,15,P,Polyatomic nonmetal
+Sulfur,16,S,Polyatomic nonmetal
+Chlorine,17,Cl,Diatomic nonmetal
+Argon,18,Ar,Noble gas
+Potassium,19,K,Alkali metal
+Calcium,20,Ca,Alkaline earth metal
+Scandium,21,Sc,Transition metal
+Titanium,22,Ti,Transition metal
+Vanadium,23,V,Transition metal
+Chromium,24,Cr,Transition metal
+Manganese,25,Mn,Transition metal
+Iron,26,Fe,Transition metal
+Cobalt,27,Co,Transition metal
+Nickel,28,Ni,Transition metal
+Copper,29,Cu,Transition metal
+Zinc,30,Zn,Transition metal
+Gallium,31,Ga,Other metal
+Germanium,32,Ge,Metalloid
+Arsenic,33,As,Metalloid
+Selenium,34,Se,Polyatomic nonmetal
+Bromine,35,Br,Diatomic nonmetal
+Krypton,36,Kr,Noble gas
+Rubidium,37,Rb,Alkali metal
+Strontium,38,Sr,Alkaline earth metal
+Yttrium,39,Y,Transition metal
+Zirconium,40,Zr,Transition metal
+Niobium,41,Nb,Transition metal
+Molybdenum,42,Mo,Transition metal
+Technetium,43,Tc,Transition metal
+Ruthenium,44,Ru,Transition metal
+Rhodium,45,Rh,Transition metal
+Palladium,46,Pd,Transition metal
+Silver,47,Ag,Transition metal
+Cadmium,48,Cd,Transition metal
+Indium,49,In,Other metal
+Tin,50,Sn,Other metal
+Antimony,51,Sb,Metalloid
+Tellurium,52,Te,Metalloid
+Iodine,53,I,Diatomic nonmetal
+Xenon,54,Xe,Noble gas
+Cesium,55,Cs,Alkali metal
+Barium,56,Ba,Alkaline earth metal
+Lanthanum,57,La,Lanthanide
+Cerium,58,Ce,Lanthanide
+Praseodymium,59,Pr,Lanthanide
+Neodymium,60,Nd,Lanthanide
+Promethium,61,Pm,Lanthanide
+Samarium,62,Sm,Lanthanide
+Europium,63,Eu,Lanthanide
+Gadolinium,64,Gd,Lanthanide
+Terbium,65,Tb,Lanthanide
+Dysprosium,66,Dy,Lanthanide
+Holmium,67,Ho,Lanthanide
+Erbium,68,Er,Lanthanide
+Thulium,69,Tm,Lanthanide
+Ytterbium,70,Yb,Lanthanide
+Lutetium,71,Lu,Lanthanide
+Hafnium,72,Hf,Transition metal
+Tantalum,73,Ta,Transition metal
+Wolfram,74,W,Transition metal
+Rhenium,75,Re,Transition metal
+Osmium,76,Os,Transition metal
+Iridium,77,Ir,Transition metal
+Platinum,78,Pt,Transition metal
+Gold,79,Au,Transition metal
+Mercury,80,Hg,Transition metal
+Thallium,81,Tl,Other metal
+Lead,82,Pb,Other metal
+Bismuth,83,Bi,Other metal
+Polonium,84,Po,Other metal
+Astatine,85,At,Metalloid
+Radon,86,Rn,Noble gas
+Francium,87,Fr,Alkali metal
+Radium,88,Ra,Alkaline earth metal
+Actinium,89,Ac,Actinide
+Thorium,90,Th,Actinide
+Protactinium,91,Pa,Actinide
+Uranium,92,U,Actinide
+Neptunium,93,Np,Actinide
+Plutonium,94,Pu,Actinide
+Americium,95,Am,Actinide
+Curium,96,Cm,Actinide
+Berkelium,97,Bk,Actinide
+Californium,98,Cf,Actinide
+Einsteinium,99,Es,Actinide
+Fermium,100,Fm,Actinide
+Mendelevium,101,Md,Actinide
+Nobelium,102,No,Actinide
+Lawrencium,103,Lr,Actinide

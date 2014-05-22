@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Find an element</title>
+  
+<link rel="stylesheet" href="css/style.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="scripts/mustache.js"></script>
+<script src="scripts/periodic.js"></script>
+</head>
+<body>
+<div id="searchContainer">
+
+	<div id="searchPanel">
+	<form action="javascript:void(1)" method="post">
+		Search by <SELECT NAME="searchCriteria" id="searchCriteria">
+			<OPTION value="AtomicNumber">Atomic Number</OPTION>
+			<OPTION value="name">Name</OPTION>
+			<OPTION value="symbol">Symbol</OPTION>
+		</SELECT>
+		for: <input type="text" id="searchTerm" name="searchTerm" value="1"/>
+		<button id="searchButton">Go</button>
+	</form>
+	</div>
+
+	<div id="searchResults">
+		
+	</div>
+	
+</div>
+</body>
+</html>
