@@ -1,4 +1,4 @@
-package table;
+package com.scottshipp.periodic_elements;
 
 public enum SearchOptions {
 	NAME("Element"), ATOMIC_NUMBER("AtomicNumber"), SYMBOL("Symbol"), METAL_GROUP("MetalGroup");

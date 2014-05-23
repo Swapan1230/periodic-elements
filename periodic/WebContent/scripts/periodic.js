@@ -8,7 +8,7 @@ $( document ).ready(function() {
 					"searchTerm":searchTerm
 		};
 		$.ajax({
-			url: "/periodic/ElementSearch",
+			url: "/periodic/ChemicalElement",
 			cache: false,
 			dataType: "json",
 			data: data,

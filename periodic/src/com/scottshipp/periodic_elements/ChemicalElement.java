@@ -1,20 +1,20 @@
-package table;
+package com.scottshipp.periodic_elements;
 
-public class Element {
+public class ChemicalElement {
 	private String name;
 	private String atomicNumber;
 	private String symbol;
 	private String metalGroup;
 	
 	
-	Element() {
+	ChemicalElement() {
 		this.name = "Bad Query";
 		this.atomicNumber = "-1";
 		this.symbol = "--";
 		this.metalGroup = "BadQuery";
 	}
 	
-	Element(String name, String atomicNumber, String symbol, String metalGroup) {
+	ChemicalElement(String name, String atomicNumber, String symbol, String metalGroup) {
 		this.name = name;
 		this.atomicNumber = atomicNumber;
 		this.symbol = symbol;

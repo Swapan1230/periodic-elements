@@ -1,4 +1,4 @@
-package table;
+package com.scottshipp.periodic_elements;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -14,14 +14,14 @@ import org.json.JSONObject;
 /**
  * Servlet implementation class Elements
  */
-@WebServlet("/ElementSearch")
-public class ElementsServlet extends HttpServlet {
+@WebServlet("/ChemicalElement")
+public class ChemicalElementServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ElementsServlet() {
+    public ChemicalElementServlet() {
         super();
     }
 
@@ -38,11 +38,11 @@ public class ElementsServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		SearchOptions searchCriteria = SearchOptions.getOptionFromString(request.getParameter("searchCriteria").trim());
 		String searchTerm = request.getParameter("searchTerm").trim().toLowerCase();
-		Element result = null;
+		ChemicalElement result = null;
 		if(SearchOptions.contains(searchCriteria)) {
-			result = LookupElement.by(searchCriteria, searchTerm);
+			result = LookupChemicalElement.by(searchCriteria, searchTerm);
 		} else {
-			result = new Element();
+			result = new ChemicalElement();
 		}
 		response.setContentType("application/json");
 		PrintWriter out = response.getWriter();
